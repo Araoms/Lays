@@ -1,0 +1,35 @@
+SQL ：2019.10.18
+1.lays 新增tb_ 九张表、 聊天表、
+2.lays user表、新增字段 memberIdx 作为其聊天表字段、 关联、6位数 ~ 9位数 、纯数字ID
+
+SQL：2019.11.4
+1.lays autocaiji表 新增字段
+content	varchar	1024	0	-1	0	0	0	0		0	过滤掉的内容	utf8	utf8_general_ci		0	0
+
+SQL：2019.11.27
+1.技术题库相关     lays_technical_questions
+2.技术题库        lays_item_bank
+3.做题记录表      lays_record
+
+SQL：2019.12.5
+1. 做题评分表   lays_technical_score
+
+SQL：2019.12.13
+1.lays_setting 表 增加字段
+zhifubao_logo
+weixin_logo
+
+SQL：2019.12.25
+重大更新、更新了会员模块、
+1.VIP 权益表       lays_vip
+2.会员用户表        lays_vip_member
+3.会员充值订单记录表 lays_vip_recharge_record
+
+SQL：2019.12.25
+更新了支付配置表
+lays_payment
+
+SQL：2019.12.30
+更新了配置表
+lays_setting
+增加字段 ：key =>message_setting  array 短信配置

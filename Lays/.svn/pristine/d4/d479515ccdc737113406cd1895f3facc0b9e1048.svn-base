@@ -1,0 +1,7 @@
+{
+    "require": {
+        "jaeger/querylist": "^4.1",
+        "jaeger/querylist-phantomjs": "^4.0",
+        "zoujingli/wechat-developer": "^1.2"
+    }
+}
